@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1130"
+   LastUpgradeVersion = "9999"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,21 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC7AD5252417C4D20022D198"
+               BlueprintIdentifier = "TimelaneCore::TimelaneCoreTestUtils"
+               BuildableName = "TimelaneCoreTestUtils.framework"
+               BlueprintName = "TimelaneCoreTestUtils"
+               ReferencedContainer = "container:TimelaneCore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "TimelaneCore::TimelaneCore"
                BuildableName = "TimelaneCore.framework"
                BlueprintName = "TimelaneCore"
                ReferencedContainer = "container:TimelaneCore.xcodeproj">
@@ -28,6 +42,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "TimelaneCore::TimelaneCoreTests"
+               BuildableName = "TimelaneCoreTests.xctest"
+               BlueprintName = "TimelaneCoreTests"
+               ReferencedContainer = "container:TimelaneCore.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -47,15 +71,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC7AD5252417C4D20022D198"
-            BuildableName = "TimelaneCore.framework"
-            BlueprintName = "TimelaneCore"
-            ReferencedContainer = "container:TimelaneCore.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
